@@ -1,0 +1,67 @@
+
+
+	/*REUTILLISABLE*/
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*border:2px solid yellow;*/
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+	/*>>>DIV HEADER<<<*/
+header {
+	background-image: url("../images/poster.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-height: 650px;
+}
+nav {
+	min-width: 40%;
+	display: flex;
+	justify-content: flex-end;
+}
+#logo img{
+	width: 50%;
+}
+#nav-bar {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+#nav-bar a {
+	text-decoration: none;
+	color: white;
+}
+	/*titre header*/
+#titre {
+	min-height: 500px ;
+	color: white;
+}
+#titre h1{
+	text-transform: uppercase;
+	/*font-size: 35px;*/
+}
+#centralisation-du-centrage-au-milieu-du-centre-de-la-div-central-le-tout-centre{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	font-weight: bold;
+	border:2px solid red;
+}
