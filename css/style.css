@@ -33,16 +33,22 @@ header {
 nav {
 	min-width: 40%;
 	display: flex;
-	justify-content: flex-end;
+	/*border:2px solid black;*/
+
+}
+#logo{
+	/*border:2px solid green;*/
 }
 #logo img{
 	width: 50%;
+	/*border:2px solid green;*/
 }
 #nav-bar {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
+	/*border:2px solid pink;*/
 }
 #nav-bar a {
 	text-decoration: none;
@@ -63,5 +69,26 @@ nav {
 	align-items: center;
 	flex-direction: column;
 	font-weight: bold;
-	border:2px solid red;
+	/*border:2px solid red;*/
+}
+
+#footer-du-header-en-gros-c-est-le-bas-de-page-du-haut-de-la-page {
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	min-height: 100px;
+	/*border: 3px solid green;*/
+}
+#form {
+	width: 80%;
+	min-height: auto;
+	display: flex;
+	justify-content: center;
+	/*border: 5px solid orange;*/
+}
+form {
+	display: flex;
+	justify-content: center;
+}
+input {
+	width: 300px;
 }

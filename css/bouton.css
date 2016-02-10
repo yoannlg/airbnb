@@ -20,13 +20,13 @@
     padding: 18px;
 }
 .btn-color {
-    background-color: #469AE0;
+    background-color: #FF5A5F;
 }
 .btn-lg {
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
-    padding: 15px;
+ /*   padding: 10px;*/
     color: white;
 }
 
