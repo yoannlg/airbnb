@@ -22,6 +22,15 @@
 .btn-color {
     background-color: #007A87;
 }
+.btn-color-white {
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
 .btn-lg {
     text-align: center;
     vertical-align: middle;
