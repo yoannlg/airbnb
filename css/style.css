@@ -7,6 +7,11 @@
 	align-items: center;
 
 }
+.center-column {
+	/*justify-content: center;	*/
+	text-align: center;
+	font
+}
 .center2{
 	width: 
 	display: flex;
@@ -38,6 +43,24 @@ a{
 	text-decoration: none;
 	color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -140,6 +163,26 @@ input {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/*DIV ACCUEIL*/
 
 #accueil {
@@ -182,6 +225,31 @@ input {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/*DIV SOUS-TITRE*/
 
 #toutouyoutou{
@@ -197,6 +265,7 @@ input {
 .img-all{
 	height: 350px;
 	min-width: 300px;
+	/*max-width: 380px;   */
 	margin: 10px;
 	background-size: cover;
 	display: flex;
@@ -208,9 +277,6 @@ input {
 	font-weight: bold;
 	/*border: 2px solid blue;*/
 	flex:1 1 0;
-
-
-
 }
 
 #paris{
@@ -230,8 +296,7 @@ input {
 	background-image: url("../images/lisbonne.jpg");
 	flex-grow:2;
 	flex-basis:20px;
-	min-width:400px;
-
+	min-width:350px;
 }
 #susanna{
 	background-image: url("../images/susanna.jpg");	
@@ -270,6 +335,160 @@ input {
 }
 #biarritz {
 	background-image: url("../images/biarritz.jpg");
-	justify-content: auto;
+	/*justify-content: auto;*/
 
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*DIV BANNER*/
+
+#banner {
+	width: 100%;
+	height: 600px;
+	background-image: url("../images/voyage.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	margin: 30px auto;
+}
+#banner h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*DIV CATEGORIE*/
+
+
+#categorie {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.img-cat {
+	height: 450px;
+	min-width: 300px;
+	/*max-width: 380px;   */
+	margin: 10px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	flex-flow; wrap;
+	font-size: 20px;
+	font-weight: bold;
+	/*border: 2px solid blue;*/
+	flex:1 1 0;
+}
+#crea {
+	background-image: url("../images/");
+}
+#voyage {
+	background-image: url("../images/ballade-bois.jpg");
+}
+#affaire {
+	background-image: url("../images/duo.jpg");
+}
+#hebergement {
+	background-image: url("../images/hebergement.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*DIV FOOTER*/
+
+footer{
+	width: 100%;
+	min-height: 500px;
+	vertical-align: top;
+	background-color: grey;
+	color: white;
+}
+#footer-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: top;
+	/*flex-direction: column;*/
+	border: 2px solid green;
+}
+#form{
+	background-color: red;
+	width: 200px;
+	flex-direction: column;
 }
