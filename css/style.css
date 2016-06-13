@@ -25,7 +25,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border:2px solid yellow;
+	/*border:2px solid yellow;*/
 }
 .container2{
 	width: 1000px;
@@ -90,21 +90,21 @@ header {
 nav {
 	min-width: 40%;
 	display: flex;
-	border:2px solid black;
+	/*border:2px solid black;*/
 }
 #logo{
-	border:2px solid green;
+	/*border:2px solid green;*/
 }
 #logo img{
 	width: 50%;
-	border:2px solid green;
+	/*border:2px solid green;*/
 }
 #nav-bar {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
-	border:2px solid pink;
+	/*border:2px solid pink;*/
 }
 #nav-bar a {
 	text-decoration: none;
